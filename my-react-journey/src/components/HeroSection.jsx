@@ -1,13 +1,11 @@
 import React from "react";
 
-const HeroSection = () => {
+const HeroSection = (props) => {
   return (
     <div className="hero-section">
       <div>
-        <p className="greeting">
-          Hi! Im <strong>Wil</strong>
-        </p>
-        <p>This is my First react project.</p>
+        <p className="greeting">{props.greeting}</p>
+        <p>{props.paragraph}</p>
       </div>
     </div>
   );
