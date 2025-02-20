@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Activity1 from "./components/Activity1";
+import Movies from "./components/Movies";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         paragraph="This is my First react project."
       />
       <Activity1 />
+      <Movies />
     </>
   );
 };
