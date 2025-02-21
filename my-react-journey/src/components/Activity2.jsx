@@ -6,7 +6,7 @@ const Activity2 = () => {
     const todoInput = document.getElementById("todoInput").value;
 
     todos.map((todo) => {
-      if (todo == todoInput) {
+      if (todo === todoInput) {
         alert("Error! Duplicate Task");
         todoInput = document.getElementById("todoInput").value = "";
         todoInput = "";
