@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Activity2 = () => {
   const [todos, setTodos] = useState(["Sweeping"]);
   const clickHandler = () => {
-    const todoInput = document.getElementById("todoInput").value;
+    let todoInput = document.getElementById("todoInput").value;
 
     todos.map((todo) => {
       if (todo === todoInput) {
