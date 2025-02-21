@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Activity1 from "./components/Activity1";
 import Movies from "./components/Movies";
+import Activity2 from "./components/Activity2";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       />
       <Activity1 />
       <Movies />
+      <Activity2 />
     </>
   );
 };

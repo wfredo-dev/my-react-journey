@@ -60,8 +60,11 @@ li a:hover {
 }
 section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4rem;
   height: 100vh;
+  gap: 2rem;
+  font-size: 2rem;
 }
